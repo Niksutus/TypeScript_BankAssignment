@@ -1,6 +1,7 @@
+import { bankAccountInterface } from './../interfaces/bankAccount.interface';
 import { KeyInterface } from "../interfaces/key.interface";
 
-class BankAccount {
+export class BankAccount implements bankAccountInterface{
   balance: number;
   key: KeyInterface;
 

@@ -1,6 +1,6 @@
 import {KeyInterface} from '../interfaces/key.interface'
 
-class Key implements KeyInterface{
+export class Key implements KeyInterface{
     
     keyNumber: number
 
